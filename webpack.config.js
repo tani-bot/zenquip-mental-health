@@ -2,9 +2,9 @@ const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: ['@babel/polyfill', './src/index.js'],
+  entry: ['@babel/polyfill', './src/Public/index.js'],
   output:{
-    path:path.join(__dirname,'dist'),
+    path:path.join(__dirname,'src/Public'),
     filename:'main.js'
   },
   devServer: {
@@ -42,7 +42,7 @@ module.exports = {
   },
   plugins:[
     new HTMLWebpackPlugin({
-      template:'./src/index.html',
+      template:'./src/Public/index.html',
       filename:'./index.html'
     })
   ]
