@@ -7,17 +7,20 @@
   "scripts": {
     "start": "node app.js",
     "dev": "webpack-dev-server --mode=development",
+    "build":"webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "url-loader": "^4.1.1"
   },
+  
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
@@ -45,5 +48,6 @@
   "bugs": {
     "url": "https://github.com/psychxgit/PsychX/issues"
   },
-  "homepage": "https://github.com/psychxgit/PsychX#readme"
+  "homepage": "https://github.com/psychxgit/PsychX#readme",
+  "proxy": "http://localhost:5000"
 }
