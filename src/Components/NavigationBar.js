@@ -14,13 +14,13 @@ const NavigationBar = () => {
       <div className="slider">
       <ul class="slider-bullets large-text" >
           <li className='slider-bullets'><Link to="/Home"  style={{textDecoration:"none"}}>•</Link></li>
-          <li className='slider-bullets'><Link to="/About"  style={{textDecoration:"none"}}>•</Link></li>
+          <li className='slider-bullets'><Link to="/Product"  style={{textDecoration:"none"}}>•</Link></li>
           <li className='slider-bullets'><Link to="/Team"  style={{textDecoration:"none"}}>•</Link></li>
           <li className='slider-bullets'><Link to="/Contact"  style={{textDecoration:"none"}}>•</Link></li>
       </ul> 
       <button type="button" id="slider-button" class="slider-bullets-handler">
           <span className="dragger">
-          <img src="/Style/assets/icon_slider.png" alt="Arrow on the footer slider" height={"20px"} width={"20px"}/>
+          <img src="../Style/icon_slider" alt="" height={"20px"} width={"20px"}/>
           </span>
       </button>
       </div>

@@ -7,6 +7,7 @@ import Header from './Header';
 import Contact from'./Contact/Contact';
 import Team from './Team/Team';
 import NavigationBar  from './NavigationBar';
+import Product from './Product/Product';
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
                     <Route path = "/Home" exact element = { <Home />} />
                     <Route path = "/Contact" exact element = { <Contact />} />
                     <Route path = "/Team" exact element = { <Team />} />
+                    <Route path = "/Product" exact element = { <Product />} />
                 </Routes>
              <NavigationBar />
             </Router>

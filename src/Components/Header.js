@@ -13,8 +13,8 @@ const Header = () => {
                     <Link to='Home'>
                         <span>Home</span>
                     </Link>
-                    <Link to='About'>
-                        <span>About</span>
+                    <Link to='Product'>
+                        <span>Product</span>
                     </Link>
                     <Link to='Team'>
                         <span>Team</span>
